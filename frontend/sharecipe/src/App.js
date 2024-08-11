@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import RecipeList from "./components/RecipeList";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Sharecipe!</h1>
-      <RecipeList></RecipeList>
+      <MainContent></MainContent>
     </div>
   );
 }
